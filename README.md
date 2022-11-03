@@ -129,12 +129,6 @@ Comment on old ones!
 └── server.js
 ```
 
-    ├── Employee.test.js
-
-│ ├── Engineer.test.js
-│ ├── Intern.test.js
-│ └── Manager.test.js
-
 ## URLS
 
 https://pt-mvc-blog.herokuapp.com/login
