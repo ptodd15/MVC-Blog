@@ -50,7 +50,13 @@ WHEN I am idle on the site for more than a set time
 THEN I am able to view comments but I am prompted to log in again before I can add, update, or delete comments
 ```
 
-## Getting Started
+## Screenshots
+
+![Homepage](./public/images/pt-mvc-blog.herokuapp.com_.png)
+Add new posts!
+&nbsp;
+![Comments](./public/images/pt-mvc-blog.herokuapp.com_post_2.png)
+Comment on old ones!
 
 ## Installations
 
@@ -64,6 +70,70 @@ THEN I am able to view comments but I am prompted to log in again before I can a
     mysql2
     sequelize
 ```
+
+## MVC File Order
+
+```md
+.
+├── config/  
+│ └── connection.js
+├── dist/
+│ ├── api/
+│ ├── comment-routes.js
+│ ├── index.js
+│ ├── post-routes.js
+│ └── user-routes.js
+│ ├── dashboard-routes.js
+│ ├── home-routes.js
+│ └── index.js  
+├── db/
+│ └── schema.sql
+├── models/
+│ ├── Comment.js
+│ ├── index.js
+│ ├── Post.js
+│ └── User.js
+├── node_modules/
+├── .public/
+│ ├── css/
+│ └── style.css
+│ ├── js/
+│ ├── comment.js
+│ ├── edit.js
+│ ├── login.js
+│ ├── logout.js
+│ ├── new.js
+│ └── signup.js
+├── utils/
+│ ├── auth.js
+│ └── helpers.js  
+├── views/
+│ ├── layouts/
+│ ├── dashboard.handlbars
+│ └── main.handlbars
+│ ├── partials/
+│ ├── comments.handlbars
+│ └── post-info.handlbars
+│ ├── all-posts-admin.handlebars
+│ ├── all-posts.handlebars
+│ ├── edit-post.handlebars
+│ ├── login.handlebars
+│ ├── new-post.handlebars
+│ ├── signup.handlebars
+│ └── single-post.handlebars  
+├── .env
+├── .gitignore
+├── package-lock.json
+├── package.json
+├── README.md
+└── server.js
+```
+
+    ├── Employee.test.js
+
+│ ├── Engineer.test.js
+│ ├── Intern.test.js
+│ └── Manager.test.js
 
 ## URLS
 
