@@ -67,4 +67,8 @@ THEN I am able to view comments but I am prompted to log in again before I can a
 
 ## URLS
 
+https://pt-mvc-blog.herokuapp.com/login
+
+https://github.com/ptodd15/MVC-Blog
+
 ---
